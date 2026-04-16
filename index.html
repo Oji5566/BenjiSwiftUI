@@ -948,6 +948,7 @@
       --color-stroke-1: rgba(60, 60, 67, 0.12);
       --color-success: #34C759;
       --color-error: #FF3B30;
+      --color-warning: #FF9500;
       --surface-card: #FFFFFF;
       --surface-elevated: #FFFFFF;
       --shadow-soft: 0 1px 3px rgba(0,0,0,.06);
@@ -1606,7 +1607,7 @@
 
     .action-btn.watchlist-btn {
       background: rgba(255,149,0,.10);
-      color: #FF9500;
+      color: var(--color-warning);
     }
 
     .action-btn.giveup-btn {
@@ -1809,7 +1810,7 @@
 
     .entry-badge.watchlist {
       background: rgba(255,149,0,.10);
-      color: #FF9500;
+      color: var(--color-warning);
     }
 
     .entry-card.watchlist-card {
@@ -1944,7 +1945,7 @@
 
     .detail-action-btn.buy-btn { background: rgba(52,199,89,.10); color: var(--color-success); }
     .detail-action-btn.skip-btn { background: rgba(255,59,48,.08); color: var(--color-error); }
-    .detail-action-btn.forget-btn { background: rgba(255,149,0,.10); color: #FF9500; }
+    .detail-action-btn.forget-btn { background: rgba(255,149,0,.10); color: var(--color-warning); }
 
     /* ---- SCROLLBAR ---- */
     ::-webkit-scrollbar-thumb {
