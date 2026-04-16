@@ -2,7 +2,7 @@
    Benji Service Worker — cache-first modern shell strategy
    ============================================================ */
 
-const CACHE_NAME = 'benji-v4-modern';
+const CACHE_NAME = 'benji-v5-light';
 const APP_SHELL = [
   './',
   './index.html',
